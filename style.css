@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.log-titl  {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links-logo a {
+    color: aliceblue;
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links-logo a:hover {
+    color: rgb(240, 192, 134);
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.links-logo img {
+    height: 100px;
+}
+
+span {
+    color: rgb(53, 24, 5);;
+    font-weight: bold;
+}
+
+span .H {
+    color: rgb(53, 24, 5);
+    font-weight: bold;
+}
+
+.log-titl h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Ballet", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 60px;
+    word-spacing: 10px;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7931547619047619) 0%, rgba(0,0,0,0.7931547619047619) 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 11%, rgba(0,0,0,0.31976540616246496) 100%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
